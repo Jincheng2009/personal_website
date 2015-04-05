@@ -1,0 +1,168 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Jincheng Wu's Homepage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Homepage">
+  <meta name="author" content="Jincheng Wu">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <style type="text/css">
+    body {
+      padding-top: 70px;
+      padding-bottom: 60px;
+    }
+    img {
+      display: block;
+      max-width: 100%;
+      max-height: 100%;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+
+
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Jincheng Wu</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="header-1">
+        <ul class="nav navbar-nav"> 
+          <li><a href="research.html">Publication</a></li>
+          <li><a href="bioinformatics.html">Bioinformatics</a></li>
+          <li class="active"><a href="software.html">Software</a></li>
+          <li><a href="genequery.php">Database</a></li>
+          <li><a href="equity.php">Equity</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <div class="container">
+
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingOne">
+         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+          <h4 class="panel-title">FACSClust: Flow cytometry data visualization and analysis (Java and R)</h4>
+        </a>
+      </div>
+      <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+       <div class="panel-body">
+        <div>
+          <p class="text-info" align="right">
+            <br>
+            <b> UI - Java Swing in NetBeans <br>
+              Visualization - JFreeChart API in Java <br>
+              Data I/O and Clustering - R (flowCore and flowClust) <br>
+              Implementation of R in Java - JRI library <br>
+              For more details, please go to Bioinformatics page <br>
+            </b>
+            <br>
+            <img src="Images/FACSAnalysis1.jpg" alt="image">
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+      <h4 class="panel-title">Quanticon: Colony size measurement from microscopic image processing (Matlab)
+      </h4>
+    </a>
+  </div>
+  <div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
+   <div class="panel-body">
+    <div>
+      <p>
+        <p class="text-info" align="center"> 
+          <br>
+          <b> 
+            Program developed using Matlab GUI and image processing toolbox
+          </b><br><br>
+          <img src="Images/Quanticon.jpg" alt="image">
+          <br><br><br>
+          <b align="center"> 
+            Program also developed for segment single cells from fluoresence images
+          </b><br><br>
+          <img src="Images/ImageCytometer.png" alt="image">
+
+        </p>
+      </div>	
+    </div>
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading" role="tab" id="headingThree">
+   <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+    <h4 class="panel-title" class="panel-title">SQLEngine: Realization of SQL function in Java environment (Java, JavaCC and SQL) </h4>
+  </a>
+</div>
+<div id="collapseThree" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingThree">
+ <div class="panel-body">
+  <div>
+    <p class="text-info"> 
+      <br>
+      Programming languages involved: Java, JavaCC, TPC-H, makefile, SQL <br><br>
+      <b> Phase I: </b> JavaCC to parse SQL statement and Java program to execute SQL statement.<br>
+      <b> Phase II:</b> Build ISAM and Hash index under memory restriction (BufferManager API was provided by the instructor limiting the memory size). <br>
+      <b> Phase III: </b> Generate large-scale database by TPC-H and optimize corresponding SQL trees to accelerate SQL execution: (1) Pushdown selection predicate and Projection operator; (2) Realize merge-sort join instead of nested loop join and (3) Utilize index built on phase II to accelerate scan operation.
+    </p><br>
+    <img src="Images/SQLengine.jpg" alt="image">
+  </div>
+</div>
+</div>
+</div>
+
+<br>
+
+<hr size="3" noshade style="color:#000000" align="left">
+
+<div class="footer" id="footer">
+
+  <!-- Start: TraceMyIP.org Code //-->
+  <br>
+  <div align="center">
+    <script type="text/javascript" src="http://s2.tracemyip.org/tracker/lgUrl.php?stlVar2=1326&amp;rgtype=4684NR-IPIB&amp;pidnVar2=54519&amp;prtVar2=13&amp;scvVar2=12"></script><noscript>
+    <a title="how to trace people" href="http://www.tracemyip.org/" target="_blank">
+
+      <img src="http://s2.tracemyip.org/tracker/1326/4684NR-IPIB/54519/13/12/ans/" alt="how to trace people" border="0">
+
+    </a></noscript>
+  </div>
+  <!-- End: TraceMyIP.org Code //-->
+
+  <div>
+    <p>Last update @ 03/2015</p>
+  </div>
+
+</div><!-- /footer -->
+
+</div> <!-- /container -->
+
+      <!-- Le javascript
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    </body>
+    </html>
